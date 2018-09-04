@@ -1,0 +1,44 @@
+html, body {
+  height: auto;
+}
+
+body {
+  white-space: nowrap;
+  background-repeat: no-repeat;
+  background-image: url("kino.jpg");
+  background-color: hsla(0,0%,100%,0.7);
+  background-blend-mode: overlay;
+  margin: 10px;
+  padding: 0;
+}
+
+#container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 15px;
+  bottom: 20px;
+  text-align: left;
+  width: 100%;
+  line-height: 120%;
+  font-family: Arial, sans-serif;
+  color: rgb(66,66,66);
+  letter-spacing: -0.05em;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+    padding: 3px;
+}
+
+a.button:hover {
+    cursor:pointer;
+}

@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "icons": {
+    "128": "icon-128.png"
+  },
+  "name": "Kino Export/Import",
+  "description": "Exports from kinoestet.ru, imports to kinopoisk.ru",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon-16.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}

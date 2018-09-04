@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Kino Export/Import</title>
+    <link href="main.css" rel="stylesheet">
+
+    <script src="popup.js"></script>
+  </head>
+
+  <body>
+    <div id='kinoestet_navigate'>
+      <h1>Export from kinoestet.ru</h1>
+      <div id="container">
+        <table border=0>
+          <tr><td>
+            <span>Enter user's 'viewed' page url:</span>
+          </td></tr>
+          <tr><td>
+            <input id='input_url'
+                   size=50 type="textarea" 
+                   value='http://kinoestet.ru/user/9/viewed'
+                   placeholder="http://kinoestet.ru/user/9/viewed" />
+          </td></tr>
+          <tr><td>
+            <a id='go_btn'
+               class="button">Go</a>
+          </td></tr>
+        </table>
+      </div>
+    </div>
+    <div id='kinoestet_parse'>
+      <h1>Parse movies on kinoestet.ru</h1>
+      <div id="container">
+        <table border=0>
+          <tr><td>
+            <span>Pages: </span><span id='pages2parse'></span>
+          </td></tr>
+          <tr><td>
+            <a id='go_btn'
+               class="button">Go</a>
+          </td></tr>
+        </table>
+      </div>
+    </div>
+    <div id='kinopoisk_import'>
+        <h1>Import movies to kinopoisk.ru</h1>
+        <div id="container">
+            <table border=0>
+                <tr><td>
+                    <span>Movies in storage: </span><span id='moviesInStorage'></span>
+                </td></tr>
+                <tr><td>
+                    <a id='go_btn'
+                       class="button">Go</a>
+                </td></tr>
+            </table>
+        </div>
+    </div>
+  </body>
+</html>
