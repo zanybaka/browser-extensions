@@ -13,3 +13,6 @@
 
 <img src="https://github.com/zanybaka/browser-extensions/blob/master/chrome/kino/step4.png" alt="step#4" width="300"/>
 
+# well-known issue
+- export works if it least 2 pages with movies found on kinoestet.ru
+- kinopoisk.ru could block you marks functionality for you if you submit >100 movies. I would recommend to wait for an hour before submitting next 100 movies.
